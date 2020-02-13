@@ -1,0 +1,28 @@
+body {
+  color: #fff;
+  background-color: #fff;
+  margin: 0 auto;
+}
+
+ul {
+  padding-left: 0;
+}
+
+li {
+  border-bottom: 1px solid grey;
+  display: inline-block;
+  padding-right: 2%;
+}
+
+.firstList {
+  padding-left: 5%;
+}
+
+header {
+  background-color: grey;
+}
+
+h1 {
+  padding-left: 5%;
+  margin: 0 auto;
+}
