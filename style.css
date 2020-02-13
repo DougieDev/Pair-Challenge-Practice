@@ -14,7 +14,7 @@ li {
   padding-right: 2%;
 }
 
-.firstList {
+.first-list {
   padding-left: 5%;
 }
 
@@ -25,4 +25,8 @@ header {
 h1 {
   padding-left: 5%;
   margin: 0 auto;
+}
+
+main {
+  border: 1px solid black;
 }
