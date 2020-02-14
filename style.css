@@ -9,11 +9,19 @@ ul {
 }
 
 li {
-  border-bottom: 1px solid grey;
   display: inline-block;
   padding-right: 2%;
 }
 
+/* li:focus {
+  border-bottom: 10px;
+  border-color: white-grey;
+  border-style: solid;
+} */
+
+li:hover {
+  cursor: pointer;
+}
 .first-list {
   padding-left: 5%;
 }
@@ -28,7 +36,35 @@ h1 {
 }
 
 main {
-  border: 1px solid black;
-  height:100px;
-  background-color:black;
+  height: 100px;
+  color:grey;
+}
+
+.page-one {
+  margin-left: 2%;
+}
+
+.page-two {
+  margin-left: 2%;
+  color: grey;
+}
+
+.page-three {
+  margin-left: 2%;
+  display: inline;
+  background-color:red;
+  color:white;
+  border: 1px solid blue;
+  width:10%;
+  height:10%;
+  border-radius:2px;
+}
+
+.page-four {
+  margin-left: 2%;
+  color: grey;
+}
+
+.hidden {
+  display: none;
 }
